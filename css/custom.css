@@ -1,0 +1,10 @@
+.banner-main {
+    background-image: url(../images/22589.jpg);
+    background-position: center;
+    height: 100vh;
+    /* You must set a specified height */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
