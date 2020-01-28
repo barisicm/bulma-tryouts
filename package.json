@@ -33,7 +33,8 @@
     "deploy": "npm run css-deploy && npm run js-build",
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
-    "start": "npm-run-all --parallel css-watch js-watch"
+    "start": "npm-run-all --parallel css-watch js-watch",
+    "serve": "gulp serve"
   },
   "dependencies": {
     "gulp": "^4.0.2"
