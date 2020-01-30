@@ -140,7 +140,7 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: none;
   display: inline-flex;
@@ -148,10 +148,10 @@
   height: 2.25em;
   justify-content: flex-start;
   line-height: 1.5;
-  padding-bottom: calc(0.375em - 2px);
-  padding-left: calc(0.625em - 2px);
-  padding-right: calc(0.625em - 2px);
-  padding-top: calc(0.375em - 2px);
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: calc(0.625em - 1px);
+  padding-right: calc(0.625em - 1px);
+  padding-top: calc(0.375em - 1px);
   position: relative;
   vertical-align: top; }
   .button:focus, .input:focus, .textarea:focus, .select select:focus, .file-cta:focus,
@@ -1163,14 +1163,14 @@ a.box:active {
 .button {
   background-color: white;
   border-color: #dbdbdb;
-  border-width: 2px;
+  border-width: 1px;
   color: #363636;
   cursor: pointer;
   justify-content: center;
-  padding-bottom: calc(0.375em - 2px);
+  padding-bottom: calc(0.375em - 1px);
   padding-left: 0.75em;
   padding-right: 0.75em;
-  padding-top: calc(0.375em - 2px);
+  padding-top: calc(0.375em - 1px);
   text-align: center;
   white-space: nowrap; }
   .button strong {
@@ -1179,14 +1179,14 @@ a.box:active {
     height: 1.5em;
     width: 1.5em; }
   .button .icon:first-child:not(:last-child) {
-    margin-left: calc(-0.375em - 2px);
+    margin-left: calc(-0.375em - 1px);
     margin-right: 0.1875em; }
   .button .icon:last-child:not(:first-child) {
     margin-left: 0.1875em;
-    margin-right: calc(-0.375em - 2px); }
+    margin-right: calc(-0.375em - 1px); }
   .button .icon:first-child:last-child {
-    margin-left: calc(-0.375em - 2px);
-    margin-right: calc(-0.375em - 2px); }
+    margin-left: calc(-0.375em - 1px);
+    margin-right: calc(-0.375em - 1px); }
   .button:hover, .button.is-hovered {
     border-color: #D0D1CD;
     color: #363636; }
@@ -2785,8 +2785,8 @@ a.tag:hover {
   vertical-align: top; }
 
 .input, .textarea, .select select {
-  background-color: #EFF0EB;
-  border-color: transparent;
+  background-color: white;
+  border-color: #dbdbdb;
   border-radius: 4px;
   color: #363636; }
   .input::-moz-placeholder, .textarea::-moz-placeholder, .select select::-moz-placeholder {
@@ -2837,7 +2837,7 @@ a.tag:hover {
       color: rgba(122, 122, 122, 0.3); }
 
 .input, .textarea {
-  box-shadow: none;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   max-width: 100%;
   width: 100%; }
   .input[readonly], .textarea[readonly] {
