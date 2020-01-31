@@ -1,20 +1,16 @@
 @charset "utf-8";
 
 // Customization
-
-// You can easily customize Bulma with your own variables.
-// Just uncomment the following block to see the result.
-
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
+
 // Set your brand colors
-$purple: rgb(75, 23, 58);
+$purple: rgb(224, 24, 158);
 $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
-
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
@@ -22,11 +18,20 @@ $grey-light: $beige-light;
 $primary: $purple;
 $link: $pink;
 
-// Update some of Bulma's component variables
-// $control-border-width: 2px;
-// $input-background-color: $beige-lighter;
-// $input-border-color: transparent;
-// $input-shadow: none;
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 16px;
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px;
+// 960px container + 4rem
+$desktop: 1020px + (2 * $gap);
+// 1152px container + 4rem
+$widescreen: 952px + (2 * $gap);
+$widescreen-enabled: true;
+// 1344px container + 4rem
+$fullhd: 1144px + (2 * $gap);
+$fullhd-enabled: true;
+
+$navbar-height: 6rem;
 
 // 4. Import the rest of Bulma
 @import "../node_modules/bulma/bulma";

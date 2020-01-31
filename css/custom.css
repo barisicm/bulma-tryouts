@@ -9,3 +9,7 @@
 .auto-margins{
     margin: auto
 }
+
+div{
+    border: 1px solid black;
+}
