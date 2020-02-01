@@ -1,0 +1,40 @@
+.example-1{
+    .paragraph{
+        transition-property: line-height, font-size;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+
+    .paragraph:hover{
+        line-height: 4;
+        font-size: 50;
+    }
+}
+
+.example-2{
+    .widestuff{
+        width: 100%;
+        visibility: visible;
+        background-color: burlywood;
+        min-height: 100px;
+        transition-property: visibility;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+
+    .widestuff:active {
+        /* animation css */
+        visibility: hidden;
+    }
+}
+
+
+.example-3{
+    .clickable{
+
+    }
+
+    .animation{
+        
+    }
+}

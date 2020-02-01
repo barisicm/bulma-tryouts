@@ -6955,3 +6955,25 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.example-1 .paragraph {
+  transition-property: line-height, font-size;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.example-1 .paragraph:hover {
+  line-height: 4;
+  font-size: 50; }
+
+.example-2 .widestuff {
+  width: 100%;
+  visibility: visible;
+  background-color: burlywood;
+  min-height: 100px;
+  transition-property: visibility;
+  transition-duration: 1s;
+  transition-timing-function: linear; }
+
+.example-2 .widestuff:active {
+  /* animation css */
+  visibility: hidden; }

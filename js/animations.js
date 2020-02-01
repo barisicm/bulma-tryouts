@@ -1,0 +1,1 @@
+$("clickable").click().toggleClass("animation");
