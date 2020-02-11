@@ -24,6 +24,31 @@ Your Web Navigator
 
 Hi, I am a web developer from Zagreb, Croatia. I enjoy building websites from small business sites to rich interactive web apps. If you are a business seeking a web presence, you can get in touch with me here.
 
+----------------------------------------
+
+Hi, I am Marin Barišić
+
+And I'm a Web Developer
 
 
+About Me___ 
+(Ekšual info o meni)
+Student Jobs
+eWyse, Zeraxo, Lapis
+Work
+Croatian Telekom
+Sartura
+
+My Work____ 
+Websites(wp-sites)
+Vue apps
+Moš to i polako
+
+My Skills____
+HTML, Javascript, CSS
+Vue, Angular, SCSS, Gulp, Git
+Blockchain, Node
+Linux
+
+Blog____
 
